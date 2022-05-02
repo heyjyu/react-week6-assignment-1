@@ -73,7 +73,7 @@ describe('App', () => {
     });
   });
 
-  context('with undefined paths', () => {
+  context('with invalid paths', () => {
     it('renders error message', () => {
       const { container } = renderApp({ path: '/otherPage' });
 
